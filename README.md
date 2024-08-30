@@ -23,5 +23,23 @@ PyMC3
 TensorFlow
 ```
 
+You can install these packages using either `pip` or `conda`. Here are the commands to install the packages using both methods:
+
+### Pip
+
+`pip install numpy matplotlib scikit-learn nltk pymc3 tensorflow`
+
+### Conda
+
+`conda install numpy matplotlib scikit-learn nltk pymc3 tensorflow`
+
+Note that you may need to create a new Conda environment to install the packages, as some packages may have dependencies that are not compatible with your current environment. To create a new Conda environment, you can use the following command:
+
+`conda create -n ml-project python=3.x numpy matplotlib scikit-learn nltk pymc3 tensorflow`
+
+This will create a new Conda environment called ml-project with Python 3.x and the required packages installed. To activate the environment, you can use the following command:
+
+`conda activate ml-project`
+
 ## Results
 The results of each exercise are presented in the corresponding notebook. For some exercises, such as PCA and ICA, visualizations are provided to help understand the results. For other exercises, such as decision trees and ensembles, accuracy scores are reported to evaluate the performance of the models.
