@@ -1,4 +1,4 @@
-# COMS30035 Machine Learning 
+# COMS30035 - Machine Learning 
 
 This unit covers various Machine Learning (ML) exercises and implementations, including:
 
